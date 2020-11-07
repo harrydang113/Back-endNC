@@ -1,0 +1,31 @@
+#wrapper{
+	margin: 0 auto; 
+	border: 1px solid red;
+	width: 1000px;
+	
+}
+
+.title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+#form{
+	margin: 20px 40px;
+}
+
+.row{
+	margin-bottom: 20px;
+}
+
+.row p{
+	font-weight: bold;
+}
+
+.error{
+	font-style: italic;
+	font-weight: normal;
+	color: red;
+}

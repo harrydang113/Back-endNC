@@ -1,0 +1,82 @@
+body{
+    background: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+.content{
+	margin: 0 auto;
+}
+
+.content h1{
+	text-align: center;
+}
+
+.mainform{
+	margin: 5px;
+}
+
+
+.rows{
+	border: 1px;
+	padding: 4px 20px;	
+	margin: 5px;
+	display: flex;
+	border : solid;
+	border-width: 1px;
+}
+
+
+.img_{
+	padding: 4px 4px;	
+	width: 250px;
+	height: 190px;
+	
+}
+.img_ img{
+  display: block;
+  max-width:230px;
+  max-height:190px;
+  width: auto;
+  height: auto;
+}
+
+
+.cont {
+	padding: 0px 4px;
+	background-color: #fff;
+	display: flex;
+	flex: 1;
+}
+
+.tit_cont {
+	
+	flex-direction: column;
+	flex: 4;	
+}
+.tit_cont h3{
+	padding: 0px 4px;
+	text-align: top;
+}
+.tit_cont span{
+	padding: 0px 4px;
+	text-align: top;
+}
+
+.fileName {
+	flex: 1;
+	text-align: center;
+}
+
+.fileSize {
+	flex: 1;
+	text-align: center;
+}
+
+.edit_del {
+	flex: 1;
+	text-align: center;
+}
